@@ -1,0 +1,21 @@
+{
+  "name": "eu27-sust",
+  "version": "0.1.0",
+  "description": "EU-27 Tourism Sustainability Profile · 5-year time series of tourism volume, intensity, seasonality, economic dependence, and certification density across the 27 EU member states.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:no-cache": "node scripts/build.js --no-cache",
+    "build:with-cert": "node scripts/build.js --cert-path=../hotel-sustainability-scraper/data/output/hotels.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/botondboros/eu27-sust"
+  },
+  "author": "Botond Boros",
+  "license": "MIT"
+}

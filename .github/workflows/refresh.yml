@@ -1,0 +1,55 @@
+name: Weekly data refresh
+
+on:
+  schedule:
+    # Every Monday 04:00 UTC (after Eurostat's usual data-release windows)
+    - cron: '0 4 * * 1'
+  workflow_dispatch:  # allow manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Download latest Green Key cert data from scraper repo
+        continue-on-error: true  # proceed even if release is missing
+        run: |
+          curl -sL --fail \
+            https://github.com/botondboros/hotel-sustainability-scraper/releases/latest/download/hotels.json \
+            -o /tmp/hotels.json || echo "No cert release available, skipping"
+
+      - name: Build dataset
+        run: |
+          if [ -f /tmp/hotels.json ]; then
+            node scripts/build.js --cert-path=/tmp/hotels.json
+          else
+            node scripts/build.js
+          fi
+
+      - name: Copy data into public/
+        run: |
+          mkdir -p public/data
+          cp data/eu27.json public/data/eu27.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/eu27.json public/data/eu27.json
+          if git diff --staged --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "refresh: weekly Eurostat data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
