@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "0.1.0",
-    "generated_at": "2026-04-23T11:58:23.706Z",
+    "generated_at": "2026-04-27T05:09:06.348Z",
     "year_range": {
       "start": 2019,
       "end": 2024
@@ -35,7 +35,7 @@
         "n_rows": 308
       },
       "cert": {
-        "source": "C:\\Users\\bboro\\Desktop\\sust\\hotel-sustainability-scraper\\data\\output\\hotels.json"
+        "source": "none"
       }
     }
   },
@@ -111,12 +111,8 @@
           "2023": 1138217,
           "2024": 1155145
         },
-        "cert_count": {
-          "2026": 60
-        },
-        "cert_density": {
-          "2026": 0.05
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "BE": {
@@ -190,12 +186,8 @@
           "2023": 472781,
           "2024": 473144
         },
-        "cert_count": {
-          "2026": 252
-        },
-        "cert_density": {
-          "2026": 0.53
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "BG": {
@@ -259,12 +251,8 @@
           "2023": 359853,
           "2024": 360565
         },
-        "cert_count": {
-          "2026": 11
-        },
-        "cert_density": {
-          "2026": 0.03
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "HR": {
@@ -338,12 +326,8 @@
           "2023": 1149340,
           "2024": 1177999
         },
-        "cert_count": {
-          "2026": 33
-        },
-        "cert_density": {
-          "2026": 0.03
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "CY": {
@@ -417,12 +401,8 @@
           "2023": 84859,
           "2024": 94385
         },
-        "cert_count": {
-          "2026": 23
-        },
-        "cert_density": {
-          "2026": 0.27
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "CZ": {
@@ -495,12 +475,8 @@
           "2023": 759131,
           "2024": 749646
         },
-        "cert_count": {
-          "2026": 16
-        },
-        "cert_density": {
-          "2026": 0.02
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "DK": {
@@ -573,12 +549,8 @@
           "2023": 451600,
           "2024": 458459
         },
-        "cert_count": {
-          "2026": 84
-        },
-        "cert_density": {
-          "2026": 0.19
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "EE": {
@@ -646,12 +618,8 @@
           "2023": 61904,
           "2024": 63093
         },
-        "cert_count": {
-          "2026": 49
-        },
-        "cert_density": {
-          "2026": 0.79
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "FI": {
@@ -725,12 +693,8 @@
           "2023": 256028,
           "2024": 260018
         },
-        "cert_count": {
-          "2026": 188
-        },
-        "cert_density": {
-          "2026": 0.73
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "FR": {
@@ -804,12 +768,8 @@
           "2023": 5094909,
           "2024": 5070615
         },
-        "cert_count": {
-          "2026": 2973
-        },
-        "cert_density": {
-          "2026": 0.58
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "DE": {
@@ -883,12 +843,8 @@
           "2023": 3665302,
           "2024": 3702178
         },
-        "cert_count": {
-          "2026": 458
-        },
-        "cert_density": {
-          "2026": 0.12
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "GR": {
@@ -960,12 +916,8 @@
           "2023": 1237782,
           "2024": 1244717
         },
-        "cert_count": {
-          "2026": 644
-        },
-        "cert_density": {
-          "2026": 0.52
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "HU": {
@@ -1038,12 +990,8 @@
           "2023": 361716,
           "2024": 366331
         },
-        "cert_count": {
-          "2026": 24
-        },
-        "cert_density": {
-          "2026": 0.07
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "IE": {
@@ -1114,12 +1062,8 @@
           "2023": 245774,
           "2024": 246615
         },
-        "cert_count": {
-          "2026": 2
-        },
-        "cert_density": {
-          "2026": 0.01
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "IT": {
@@ -1193,12 +1137,8 @@
           "2023": 5207116,
           "2024": 5498773
         },
-        "cert_count": {
-          "2026": 201
-        },
-        "cert_density": {
-          "2026": 0.04
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "LV": {
@@ -1271,12 +1211,8 @@
           "2023": 52263,
           "2024": 54636
         },
-        "cert_count": {
-          "2026": 13
-        },
-        "cert_density": {
-          "2026": 0.25
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "LT": {
@@ -1350,12 +1286,8 @@
           "2023": 121556,
           "2024": 112425
         },
-        "cert_count": {
-          "2026": 7
-        },
-        "cert_density": {
-          "2026": 0.06
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "LU": {
@@ -1429,12 +1361,8 @@
           "2023": 57949,
           "2024": 57580
         },
-        "cert_count": {
-          "2026": 14
-        },
-        "cert_density": {
-          "2026": 0.24
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "MT": {
@@ -1508,12 +1436,8 @@
           "2023": 51041,
           "2024": 52796
         },
-        "cert_count": {
-          "2026": 11
-        },
-        "cert_density": {
-          "2026": 0.22
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "NL": {
@@ -1587,12 +1511,8 @@
           "2023": 1400003,
           "2024": 1451978
         },
-        "cert_count": {
-          "2026": 682
-        },
-        "cert_density": {
-          "2026": 0.49
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "PL": {
@@ -1665,12 +1585,8 @@
           "2023": 793056,
           "2024": 839376
         },
-        "cert_count": {
-          "2026": 97
-        },
-        "cert_density": {
-          "2026": 0.12
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "PT": {
@@ -1744,12 +1660,8 @@
           "2023": 709602,
           "2024": 721293
         },
-        "cert_count": {
-          "2026": 398
-        },
-        "cert_density": {
-          "2026": 0.56
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "RO": {
@@ -1821,12 +1733,8 @@
           "2023": 419921,
           "2024": 434333
         },
-        "cert_count": {
-          "2026": 25
-        },
-        "cert_density": {
-          "2026": 0.06
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "SK": {
@@ -1974,12 +1882,8 @@
           "2023": 188674,
           "2024": 191989
         },
-        "cert_count": {
-          "2026": 117
-        },
-        "cert_density": {
-          "2026": 0.62
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "ES": {
@@ -2053,12 +1957,8 @@
           "2023": 3821391,
           "2024": 3847619
         },
-        "cert_count": {
-          "2026": 111
-        },
-        "cert_density": {
-          "2026": 0.03
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "SE": {
@@ -2131,12 +2031,8 @@
           "2023": 840127,
           "2024": 846302
         },
-        "cert_count": {
-          "2026": 198
-        },
-        "cert_density": {
-          "2026": 0.24
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     }
   },
@@ -2411,20 +2307,8 @@
             "n": 9
           }
         },
-        "cert_count": {
-          "2026": {
-            "mean": 47.88,
-            "median": 29,
-            "n": 8
-          }
-        },
-        "cert_density": {
-          "2026": {
-            "mean": 0.13,
-            "median": 0.06,
-            "n": 8
-          }
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "Western": {
@@ -2694,20 +2578,8 @@
             "n": 6
           }
         },
-        "cert_count": {
-          "2026": {
-            "mean": 730.17,
-            "median": 355,
-            "n": 6
-          }
-        },
-        "cert_density": {
-          "2026": {
-            "mean": 0.33,
-            "median": 0.36,
-            "n": 6
-          }
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "Mediterranean": {
@@ -2977,20 +2849,8 @@
             "n": 6
           }
         },
-        "cert_count": {
-          "2026": {
-            "mean": 231.33,
-            "median": 156,
-            "n": 6
-          }
-        },
-        "cert_density": {
-          "2026": {
-            "mean": 0.27,
-            "median": 0.24,
-            "n": 6
-          }
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "Nordics": {
@@ -3257,20 +3117,8 @@
             "n": 3
           }
         },
-        "cert_count": {
-          "2026": {
-            "mean": 156.67,
-            "median": 188,
-            "n": 3
-          }
-        },
-        "cert_density": {
-          "2026": {
-            "mean": 0.39,
-            "median": 0.24,
-            "n": 3
-          }
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "Baltics": {
@@ -3537,20 +3385,8 @@
             "n": 3
           }
         },
-        "cert_count": {
-          "2026": {
-            "mean": 23,
-            "median": 13,
-            "n": 3
-          }
-        },
-        "cert_density": {
-          "2026": {
-            "mean": 0.37,
-            "median": 0.25,
-            "n": 3
-          }
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     },
     "EU27": {
@@ -3841,20 +3677,8 @@
             "n": 27
           }
         },
-        "cert_count": {
-          "2026": {
-            "mean": 257.35,
-            "median": 72,
-            "n": 26
-          }
-        },
-        "cert_density": {
-          "2026": {
-            "mean": 0.26,
-            "median": 0.21,
-            "n": 26
-          }
-        }
+        "cert_count": {},
+        "cert_density": {}
       }
     }
   }
